@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$count"
+echo $((`echo $PATH | grep -o ":/" | wc -l`+ ))
