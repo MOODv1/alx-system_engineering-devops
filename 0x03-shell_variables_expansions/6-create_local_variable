@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod +x create_local_var.sh
+echo "The value of BEST is: $BEST"
