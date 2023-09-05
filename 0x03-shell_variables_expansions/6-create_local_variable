@@ -1,2 +1,2 @@
 #!/bin/bash
-(set | grep '^[A-Za-z_][A-Za-z_0-9]*='; env; declare -F | awk '{print $3}') | sort
+printenv
